@@ -16,7 +16,7 @@ public class ConsultaIAController {
     private final ChatBotService chatBotService;
     @PostMapping(value = "/consultaFraseIA")
     public String drawsFraseIA(@RequestBody ConsultaIARequest queryRequest) {
-        String query = queryRequest.getQuery();
-        return chatBotService.enviaQuery(query);
+        String consulta = queryRequest.getConsulta();
+        return chatBotService.enviaQuery(consulta);
     }
 }

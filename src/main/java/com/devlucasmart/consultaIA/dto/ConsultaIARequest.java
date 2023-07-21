@@ -10,5 +10,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ConsultaIARequest {
-    private String query;
+    private String consulta;
 }
