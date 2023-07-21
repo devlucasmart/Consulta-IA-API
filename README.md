@@ -1,1 +1,1 @@
-# Cookie-Fortune-API
+# Consulta a API do ChatGPT
