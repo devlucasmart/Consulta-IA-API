@@ -14,8 +14,8 @@ import java.text.ParseException;
 @RequiredArgsConstructor
 public class ConsultaIAController {
     private final ChatBotService chatBotService;
-    @PostMapping(value = "/sorteiaFraseIA")
-    public String drawsFraseIA(@RequestBody ConsultaIARequest queryRequest) throws IOException, ParseException, org.apache.hc.core5.http.ParseException {
+    @PostMapping(value = "/consultaFraseIA")
+    public String drawsFraseIA(@RequestBody ConsultaIARequest queryRequest) {
         String query = queryRequest.getQuery();
         return chatBotService.enviaQuery(query);
     }
