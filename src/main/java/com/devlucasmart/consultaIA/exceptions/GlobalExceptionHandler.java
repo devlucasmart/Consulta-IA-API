@@ -1,4 +1,4 @@
-package com.devlucasmart.cookieFortune.exceptions;
+package com.devlucasmart.consultaIA.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

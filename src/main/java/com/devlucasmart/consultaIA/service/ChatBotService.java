@@ -1,4 +1,4 @@
-package com.devlucasmart.cookieFortune.service;
+package com.devlucasmart.consultaIA.service;
 
 import com.google.gson.Gson;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
@@ -32,7 +32,7 @@ public class ChatBotService {
     @Value("${chatgpt.apiKey}")
     private String apiKey;
 
-    public String enviaQuery(String entrada) throws IOException, ParseException {
+    public String enviaQuery(String entrada) {
 
         JSONObject payload = new JSONObject();
         JSONObject mensagem = new JSONObject();
@@ -80,6 +80,5 @@ public class ChatBotService {
             LOGGER.error("Erro enviando a Request: {}", e.getMessage());
             return "Error: " + e.getMessage();
         }
-
     }
 }

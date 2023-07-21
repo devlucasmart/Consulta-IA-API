@@ -1,4 +1,4 @@
-package com.devlucasmart.cookieFortune.exceptions;
+package com.devlucasmart.consultaIA.exceptions;
 
 public class NumeroNaoInformadoException extends RuntimeException {
     public NumeroNaoInformadoException() {

@@ -1,4 +1,4 @@
-package com.devlucasmart.cookieFortune;
+package com.devlucasmart.consultaIA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
